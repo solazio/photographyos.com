@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import logo from "../../content/assets/logo-2019.png"
 
-const Layout = props => {
+const Layout = (props) => {
   const { title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)
   return (
@@ -25,7 +25,7 @@ const Layout = props => {
               </div>
             </div>
           </a>
-          <nav id="swup" class="site-head-left">
+          <nav id="swup" className="site-head-left">
             <ul className="nav" role="menu">
               {/* <li className="nav-home nav-current" role="menuitem">
                 <Link to={`/`}>Home</Link>
