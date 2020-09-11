@@ -27,6 +27,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `UA-177265972-4`,
+        head: true,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -76,12 +83,6 @@ module.exports = {
         // whitelist: ['whitelist'], // Don't remove this selector
         ignore: ["/ignored.css", "prismjs/", "/prism.css", "docsearch.js/"], // Ignore files/folders
         purgeOnly: ["components/", "/main.css", "bootstrap/"], // Purge only these files/folders
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: ``,
       },
     },
     `gatsby-plugin-feed`,
