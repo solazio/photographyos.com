@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "autoprefixer": "9.8.6",
-    "husky": "2.2.0",
+    "husky": "2.7.0",
     "postcss-color-function": "4.1.0",
     "postcss-custom-properties": "8.0.10",
     "postcss-easy-import": "3.0.0",
