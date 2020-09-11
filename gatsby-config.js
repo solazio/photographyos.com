@@ -61,7 +61,9 @@ module.exports = {
           require("postcss-easy-import")(),
           require("postcss-custom-properties")({ preserve: false }),
           require("postcss-color-function")(),
-          require("autoprefixer")({ browsers: ["last 2 versions"] }),
+          require("autoprefixer")({
+            Browserslist: ["last 2 versions"],
+          }),
         ],
       },
     },
@@ -72,8 +74,8 @@ module.exports = {
         develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
         // whitelist: ['whitelist'], // Don't remove this selector
-        ignore: ['/ignored.css', 'prismjs/', '/prism.css', 'docsearch.js/'], // Ignore files/folders
-        purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
+        ignore: ["/ignored.css", "prismjs/", "/prism.css", "docsearch.js/"], // Ignore files/folders
+        purgeOnly: ["components/", "/main.css", "bootstrap/"], // Purge only these files/folders
       },
     },
     {

@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import logo from "../../content/assets/logo-2019.png"
 
 const Layout = props => {
   const { title, children } = props
@@ -32,52 +33,32 @@ const Layout = props => {
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
+              <li className="nav-contact" role="menuitem">
+                <Link to={`/contact`}>Contact</Link>
+              </li>
+              {/* <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
               </li>
               <li className="nav-tags" role="menuitem">
                 <Link to={`/tags`}>Tags</Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="site-head-center">
             <Link className="site-head-logo" to={`/`}>
-              {title}
+              <img src={logo} alt="photographyos logo"></img>
             </Link>
           </div>
           <div className="site-head-right">
             <div className="social-links">
-              <a
-                href="https://www.facebook.com"
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://www.facebook.com/photography0S" title="Facebook">
                 Facebook
               </a>
-              <a
-                href="https://twitter.com"
-                title="Twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter
+              <a href="https://www.instagram.com/ovi_dius" title="Instagram">
+                Instagram
               </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RSS
-              </Link>
-              <a
-                href="https://github.com/vaporwavy/gatsby-london-after-midnight"
-                title="GitHub"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
+              <a href="https://twitter.com/ovi_dius" title="Twitter">
+                Twitter
               </a>
             </div>
           </div>
@@ -89,15 +70,12 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
-        <a
-          href="https://gatsbyjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Gatsby
+        Powerd by{" "}
+        <a class="designza-link" href="https://www.designza.co.uk/">
+          Designza
         </a>
+        . Copyright &copy; {new Date().getFullYear()}{" "}
+        <Link to={`/`}>{title}</Link>
       </footer>
     </div>
   )
