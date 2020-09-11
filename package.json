@@ -43,7 +43,7 @@
     "postcss-custom-properties": "8.0.11",
     "postcss-easy-import": "3.0.0",
     "prettier": "2.1.1",
-    "pretty-quick": "1.10.0"
+    "pretty-quick": "1.11.1"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "license": "MIT",
