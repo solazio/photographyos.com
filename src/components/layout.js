@@ -71,7 +71,7 @@ const Layout = (props) => {
       </main>
       <footer className="site-foot">
         Powerd by{" "}
-        <a class="designza-link" href="https://www.designza.co.uk/">
+        <a className="designza-link" href="https://www.designza.co.uk/">
           Designza
         </a>
         . Copyright &copy; {new Date().getFullYear()}{" "}
