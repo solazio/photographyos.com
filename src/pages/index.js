@@ -35,6 +35,7 @@ const BlogIndex = ({ data }, location) => {
           <h2 className="page-head-title">
             {data.site.siteMetadata.description}
           </h2>
+          <h4 style={{ opacity: "0.5" }}>Natural. Informal. Creative.</h4>
         </header>
       )}
       <div className="post-feed">
@@ -88,10 +89,10 @@ const indexQuery = graphql`
   }
 `
 
-export default props => (
+export default (props) => (
   <StaticQuery
     query={indexQuery}
-    render={data => (
+    render={(data) => (
       <BlogIndex location={props.location} props data={data} {...props} />
     )}
   />
