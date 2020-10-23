@@ -2,13 +2,12 @@
 title: Interior design
 date: "2020-11-04"
 thumbnail: ./interior-deasign-1.jpg
-description: A cactus doesn't live in the desert because it likes the desert; it lives there because the desert hasn't killed it yet.
+description: We shape our homes and then our homes shape us.
 ---
 
 ![](./interior-deasign-2.jpg)
-
 ![](./interior-deasign-3.jpg)
-
 ![](./interior-deasign-4.jpg)
-
 ![](./interior-deasign-5.jpg)
+![](./interior-deasign-6.jpg)
+![](./interior-deasign-7.jpg)

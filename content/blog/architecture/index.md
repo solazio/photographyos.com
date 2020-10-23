@@ -1,14 +1,13 @@
 ---
 title: Architecture
 date: "2020-11-05"
-thumbnail: ./matthew-hamilton-351641-unsplash.jpg
-description: Let your hair down and paint the town red
+thumbnail: ./architecture-1.jpg
+description: Nothing ever gets built on schedule or within budget.
 ---
 
-![Clean lines](./clem-onojeghuo-207792-unsplash.jpg)
-
-![Clean lines](./mitch-lensink-588486-unsplash.jpg)
-
-![Clean lines](./ricardo-gomez-angel-180819-unsplash.jpg)
-
-![Clean lines](./joanna-kosinska-254406-unsplash.jpg)
+![](./architecture-2.jpg)
+![](./architecture-3.jpg)
+![](./architecture-4.jpg)
+![](./architecture-5.jpg)
+![](./architecture-6.jpg)
+![](./architecture-7.jpg)
